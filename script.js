@@ -10,7 +10,7 @@ let currentUserMessage = null;
 let isGeneratingResponse = false;
 
 const GOOGLE_API_KEY = "AIzaSyAg8P6rYIA63gJH82eyaCezUaU-Mx7tVpg";
-const API_REQUEST_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${GOOGLE_API_KEY}`;
+const API_REQUEST_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GOOGLE_API_KEY}`;
 
 // Load saved data from local storage
 const loadSavedChatHistory = () => {
